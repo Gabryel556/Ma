@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="artist_site">Artista</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="starry-background"></div>
+
+    <header class="mobile-header">
+        <h1 class="artist-name-mobile" data-lang="artist_name">Artista</h1>
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Abrir menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <!--<img src="Artist/icon.png" alt="Avatar do Artista" class="sidebar-avatar">-->
+            <h1 class="artist-name animated-gradient-text" data-lang="artist_name">Primeiro<br>Nome</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" data-page="about" class="nav-link active"><i class="fa-solid fa-house-user"></i> <span data-lang="nav_about">Sobre Mim</span></a></li>
+            <li><a href="#" data-page="gallery-hub" class="nav-link"><i class="fa-solid fa-palette"></i> <span data-lang="nav_gallery">Galeria</span></a></li>
+            <li><a href="#" data-page="contact" class="nav-link"><i class="fa-solid fa-envelope"></i> <span data-lang="nav_contact">Contato</span></a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <button id="theme-toggle" class="theme-toggle" title="Alternar tema">
+                <i class="fas fa-sun"></i> 
+            </button>
+            <select id="lang-selector">
+                <option value="pt">Português</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div id="gallery-hub" class="page">
+            <div class="hub-nav-container">
+                <div class="hub-nav-level1">
+                    <button class="hub-tab-button" data-hub-target="gallery-categories" data-lang="nav_gallery">Galeria</button>
+                    <button class="hub-tab-button" data-hub-target="commissions" data-lang="hub_tab_prices_terms">Preços e Termos</button>
+                    <button class="hub-tab-button" data-hub-target="queue" data-lang="nav_queue">Fila de Trabalho</button>
+                </div>
+                <div class="hub-nav-level2">
+                    <div id="gallery-categories" class="hub-content-tab">
+                        <button class="hub-content-button" data-content-id="headshot" data-lang="cat_headshot">Headshot</button>
+                        <button class="hub-content-button" data-content-id="halfbody" data-lang="cat_halfbody">Halfbody</button>
+                        <button class="hub-content-button" data-content-id="fullbody" data-lang="cat_fullbody">FullBody</button>
+                        <button class="hub-content-button" data-content-id="chibi" data-lang="cat_chibi">Chibi</button>
+                        <button class="hub-content-button" data-content-id="nsfw" data-lang="cat_nsfw">NSFW</button>
+                    </div>
+                </div>
+            </div>
+            <div id="gallery-hub-content-display" class="hub-content-display"></div>
+        </div>
+
+        <div id="about" class="page">
+            <div class="info-container about-artist-info">
+                <div class="about-text-block">
+                    <h2 class="page-title" data-lang="about_title">Sobre Mim</h2>
+                    <p data-lang="about_p1">Olá! Meu nome é Taiga e sou uma artista digital apaixonada por transformar ideias em obras de arte vibrantes. Desde cedo, o desenho tem sido minha forma de expressar criatividade e contar histórias.</p>
+                    <p data-lang="about_p2">Estou sempre buscando novas técnicas e inspirações para aprimorar meu trabalho. Seja para projetos pessoais ou comissões, meu objetivo é entregar arte que toque e encante.</p>
+                </div>
+                <div class="about-image-block">
+                    <img class="profile-pic" id="artist-profile-pic" src="" alt="Foto do Artista">
+                </div>
+            </div>
+            
+            <div class="info-container" style="margin-top: 2rem; max-width: 900px; text-align: left;">
+                <h3 data-lang="my_setup">Meu Setup</h3>
+                <p>Mesa Digitalizadora: </p>
+                <p>Software: Clip Studio Paint EX</p>
+                <p>CPU: Ryzen 5 5600gt</p>
+                <p>RAM: 16GB DDR4</p>
+            </div>
+        </div>
+
+        <div id="contact" class="page">
+            <h2 class="page-title" data-lang="contact_title">Contato</h2>
+            <div class="info-container">
+                <p class="contact-text" data-lang="contact_text"></p>
+                <div class="contact-buttons">
+                    <a href="#" target="_blank" class="contact-btn x-twitter"><i class="fa-brands fa-x-twitter"></i> X</a>
+                    <a href="#" target="_blank" class="contact-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#" target="_blank" class="contact-btn reddit"><i class="fab fa-reddit"></i> Reddit</a>
+                    <a href="#" target="_blank" class="contact-btn discord"><i class="fab fa-discord"></i> Discord</a>
+                    <a href="URL_DO_SEU_VGEN" target="_blank" class="contact-btn vgen"><i class="fa-solid fa-palette"></i> VGen</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="content-storage" class="hidden-storage">
+        <div id="headshot" class="gallery">
+            <h2 class="page-title" data-lang="cat_headshot"></h2>
+            <div class="slider-wrapper">
+                <div class="slider-container"></div>
+                <div class="slide-counter"></div>
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="thumbnail-navigation"></div>
+        </div>
+        <div id="halfbody" class="gallery">
+            <h2 class="page-title" data-lang="cat_halfbody"></h2>
+            <div class="slider-wrapper">
+                <div class="slider-container"></div>
+                <div class="slide-counter"></div>
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="thumbnail-navigation"></div>
+        </div>
+        <div id="fullbody" class="gallery">
+            <h2 class="page-title" data-lang="cat_fullbody"></h2>
+            <div class="slider-wrapper">
+                <div class="slider-container"></div>
+                <div class="slide-counter"></div>
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="thumbnail-navigation"></div>
+        </div>
+        <div id="chibi" class="gallery">
+            <h2 class="page-title" data-lang="cat_chibi"></h2>
+            <div class="slider-wrapper">
+                <div class="slider-container"></div>
+                <div class="slide-counter"></div>
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="thumbnail-navigation"></div>
+        </div>
+        <div id="nsfw" class="gallery">
+            <h2 class="page-title" data-lang="cat_nsfw"></h2>
+            <div class="slider-wrapper">
+                <div class="slider-container"></div>
+                <div class="slide-counter"></div>
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="thumbnail-navigation"></div>
+        </div>
+
+        <div id="commissions" class="content-item">
+            <h2 class="page-title" data-lang="hub_tab_prices_terms"></h2>
+            <div class="info-container">
+                <h3>Tabela de Preços</h3>
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="price-table-body"></tbody>
+                </table>
+                <h3>Termos de Serviço</h3>
+                <ul id="tos-list" class="terms-list"></ul>
+            </div>
+        </div>
+
+        <div id="queue" class="content-item">
+            <h2 class="page-title" data-lang="nav_queue">Fila de Trabalho</h2>
+            <div class="queue-container">
+                <div class="queue-column">
+                    <h3><i class="fas fa-clock"></i> <span data-lang="queue_col_not_started"></span></h3>
+                    <ul id="art-queue-not-started"></ul>
+                </div>
+                <div class="queue-column">
+                    <h3><i class="fas fa-pencil-alt"></i> <span data-lang="queue_col_in_progress"></span></h3>
+                    <ul id="art-queue-in-progress"></ul>
+                </div>
+                <div class="queue-column">
+                    <h3><i class="fas fa-check-circle"></i> <span data-lang="queue_col_completed"></span></h3>
+                    <ul id="art-queue-completed"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <button class="lightbox-nav prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-nav next"><i class="fas fa-chevron-right"></i></button>
+        <img class="lightbox-content" src="">
+    </div>
+    <div id="age-gate" class="page-overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>

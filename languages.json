@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "artist_name": "Taiga OwO",
+    "nav_about": "Sobre Mim",
+    "nav_gallery": "Galeria",
+    "nav_contact": "Contato",
+    "about_title": "Bem-vindo(a) ao meu cantinho!",
+    "about_p1": "Olá! Eu sou uma artista digital e ilustradora apaixonada por criar mundos mágicos e personagens cheios de vida. Este é o meu portfólio, onde compartilho um pouco da minha jornada criativa.",
+    "about_p2": "Sinta-se à vontade para explorar a galeria e entrar em contato. Espero que goste!",
+    "contact_title": "Entre em Contato",
+    "contact_text": "Você pode me encontrar nas minhas redes sociais ou me enviar uma mensagem direta!",
+    "hub_tab_prices_terms": "Preços e Termos",
+    "nav_queue": "Fila de Trabalho",
+    "cat_headshot": "Headshot",
+    "cat_halfbody": "Halfbody",
+    "cat_fullbody": "FullBody",
+    "cat_chibi": "Chibi",
+    "cat_nsfw": "NSFW",
+    "queue_col_not_started": "Não Iniciado",
+    "queue_col_in_progress": "Em Progresso",
+    "queue_col_completed": "Concluído",
+    "queue_empty": "Nenhum trabalho aqui.",
+    "queue_error": "Erro ao carregar a fila.",
+    "price_table": [
+      { "type": "Headshot", "price": "R$ XX" },
+      { "type": "Halfbody", "price": "R$ XX" },
+      { "type": "Fullbody", "price": "R$ XX" },
+      { "type": "Chibi", "price": "R$ XX" }
+    ],
+    "tos_list": [
+      "Pagamento deve ser feito 50% adiantado.",
+      "Até 3 revisões estão inclusas no preço.",
+      "O tempo de entrega pode variar dependendo da complexidade."
+    ]
+  },
+  "en": {
+    "artist_name": "Taiga OwO",
+    "nav_about": "About Me",
+    "nav_gallery": "Gallery",
+    "nav_contact": "Contact",
+    "about_title": "Welcome to my little corner!",
+    "about_p1": "Hi! I'm a digital artist and illustrator passionate about creating magical worlds and characters full of life. This is my portfolio, where I share a bit of my creative journey.",
+    "about_p2": "Feel free to explore the gallery and get in touch. I hope you enjoy it!",
+    "contact_title": "Get in Touch",
+    "contact_text": "You can find me on my social media or send me a direct message!",
+    "hub_tab_prices_terms": "Prices & Terms",
+    "nav_queue": "Work Queue",
+    "cat_headshot": "Headshot",
+    "cat_halfbody": "Halfbody",
+    "cat_fullbody": "FullBody",
+    "cat_chibi": "Chibi",
+    "cat_nsfw": "NSFW",
+    "queue_col_not_started": "Not Started",
+    "queue_col_in_progress": "In Progress",
+    "queue_col_completed": "Completed",
+    "queue_empty": "No work here.",
+    "queue_error": "Error loading the queue.",
+    "price_table": [
+      { "type": "Headshot", "price": "$XX" },
+      { "type": "Halfbody", "price": "$XX" },
+      { "type": "Fullbody", "price": "$XX" },
+      { "type": "Chibi", "price": "$XX" }
+    ],
+    "tos_list": [
+      "Payment must be made 50% upfront.",
+      "Up to 3 revisions are included in the price.",
+      "Delivery time may vary depending on complexity."
+    ]
+  }
+}

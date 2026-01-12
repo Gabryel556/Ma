@@ -1,0 +1,32 @@
+{
+  "headshot": [
+    "Headshot/Imagem1.png",
+    "Headshot/Imagem2.png"
+
+  ],
+  "halfbody": [
+    "HalfBody/image1.png"
+  ],
+  "kneeup": [
+    "KneeUp/image1.png"
+  ],
+  "fullbody": [
+    "FullBody/image1.png",
+    "FullBody/image2.png"
+  ],
+  "refsheet": [
+    "ReferenceSheet/image1.png"
+  ],
+  "semirealism": [
+    "SemiRealismo/image1.png"
+  ],
+  "chibi": [
+    "Chibi/image1.png"
+  ],
+  "vtuber": [
+    "Vtuber/image1.png"
+  ],
+  "nsfw": [
+    "NSFW/image1.png"
+  ]
+}
