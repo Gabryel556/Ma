@@ -5,7 +5,7 @@
     "nav_gallery": "Galeria",
     "nav_contact": "Contato",
     "about_title": "Bem-vindo(a) ao meu cantinho!",
-    "about_p1": "Olá! Eu sou uma artista digital e ilustradora apaixonada por criar mundos mágicos e personagens cheios de vida. Este é o meu portfólio, onde compartilho um pouco da minha jornada criativa.",
+    "about_p1": "Olá! Meu nome é Taiga e eu sou uma artista digital e ilustradora apaixonada por criar personagens fofas. Este é o meu portfólio, onde compartilho um pouco da minha jornada criativa.",
     "about_p2": "Sinta-se à vontade para explorar a galeria e entrar em contato. Espero que goste!",
     "contact_title": "Entre em Contato",
     "contact_text": "Você pode me encontrar nas minhas redes sociais ou me enviar uma mensagem direta!",
@@ -23,8 +23,12 @@
     "queue_error": "Erro ao carregar a fila.",
     "price_table": [
       { "type": "Headshot", "price": "R$ XX" },
+      { "type": "KneeUp", "price": "R$ XX" },
+      { "type": "BustUp", "price": "R$ XX" },
       { "type": "Halfbody", "price": "R$ XX" },
       { "type": "Fullbody", "price": "R$ XX" },
+      { "type": "Ref. Sheet", "price": "R$ XX" },
+      { "type": "VTuber", "price": "R$ XX" },
       { "type": "Chibi", "price": "R$ XX" }
     ],
     "tos_list": [
@@ -39,7 +43,7 @@
     "nav_gallery": "Gallery",
     "nav_contact": "Contact",
     "about_title": "Welcome to my little corner!",
-    "about_p1": "Hi! I'm a digital artist and illustrator passionate about creating magical worlds and characters full of life. This is my portfolio, where I share a bit of my creative journey.",
+    "about_p1": "Hi! My name is Taiga and I am a digital artist and illustrator passionate about creating cute characters. This is my portfolio, where I share a bit of my creative journey.",
     "about_p2": "Feel free to explore the gallery and get in touch. I hope you enjoy it!",
     "contact_title": "Get in Touch",
     "contact_text": "You can find me on my social media or send me a direct message!",
@@ -56,10 +60,14 @@
     "queue_empty": "No work here.",
     "queue_error": "Error loading the queue.",
     "price_table": [
-      { "type": "Headshot", "price": "$XX" },
-      { "type": "Halfbody", "price": "$XX" },
-      { "type": "Fullbody", "price": "$XX" },
-      { "type": "Chibi", "price": "$XX" }
+      { "type": "Headshot", "price": "R$ XX" },
+      { "type": "KneeUp", "price": "R$ XX" },
+      { "type": "BustUp", "price": "R$ XX" },
+      { "type": "Halfbody", "price": "R$ XX" },
+      { "type": "Fullbody", "price": "R$ XX" },
+      { "type": "Ref. Sheet", "price": "R$ XX" },
+      { "type": "VTuber", "price": "R$ XX" },
+      { "type": "Chibi", "price": "R$ XX" }
     ],
     "tos_list": [
       "Payment must be made 50% upfront.",

@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
 
-    // --- 1. SELEÇÃO DE ELEMENTOS GLOBAIS ---
     const navLinks = document.querySelectorAll('.nav-link');
     const pages = document.querySelectorAll('.page');
     const contentStorage = document.getElementById('content-storage');
